@@ -1,0 +1,539 @@
+/* $Id: $ */
+@charset "UTF-8";
+/* CSS Document */
+
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@-webkit-viewport {
+width:device-width
+}
+@-moz-viewport {
+width:device-width
+}
+@-ms-viewport {
+width:device-width
+}
+@-o-viewport {
+width:device-width
+}
+
+/* Ipad (Live Themes) Start */
+
+@media only screen and (min-width:1024px) {
+	
+body{
+	min-width:800px;
+	}
+	
+.topContainer{
+	background-size:contain;
+	background-position: center bottom;
+	}
+	
+.btmContainer{
+	background-size:contain;
+	background-position: center top;
+	}
+	
+.tempHeadBdr{
+	background-size:contain;
+	}
+	
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+.templateWidth{
+	width:100%;
+	margin-right:0; margin-left:0;
+	}
+	
+.topContainer{
+	background-size:contain;
+	background-position: center bottom;
+	}
+	
+.btmContainer{
+	background-size:contain;
+	background-position: center top;
+	}
+	
+.tempHeadBdr{
+	background-size:contain;
+	}
+	
+.pmnt .cardOuterWrapper{ width:99%;}
+
+.verification .captchaOuterWrapper{ width:auto;}
+
+
+.address .tempContDiv span, .geolocation .tempContDiv span{ margin-right:0;}
+
+
+.address .tempContDiv span.addtwo, .geolocation .tempContDiv span.addtwo{ 
+	width:100%;
+	}
+		
+.leftAlign .address .tempContDiv span.addtwo, .geolocation .tempContDiv span.addtwo{ 
+	width:100%;
+	}	
+.rightAlign .address .tempContDiv span.addtwo, .geolocation .tempContDiv span.addtwo{ 
+	width:100%;
+	}	
+	
+	
+	.subFormLabelDiv{ display:none !important;}
+	.subFormHorizontal .tempFrmWrapper .tempContDiv{ width:100% !important;}
+	.subFormHorizontal .tempContDiv span{ /*width:47%;*/}
+	.tempSubfrmWrapper ul li{ float:none; display:block; }
+	.subFormHorizontal li .labelName{ display:block !important;	}
+	
+	.subfrmWrapper-horizontal .subformIcn{ display:none;}
+	.subfrmWrapper-horizontal .subformIcn-vertical{ display:block;}
+	
+	.subFormHorizontal li{ padding:3px 20px;}
+    .subfrmWrapper-horizontal ul { display:inherit;padding:0; background:#f9f9f9; padding-bottom:10px; margin-bottom:30px;}
+	 .subfrmWrapper-horizontal ul:first-child{ margin-bottom:0;}
+	 .subfrmWrapper-horizontal ul:last-child{ margin-bottom:0;}
+	.subFormHorizontal li {padding: 3px 20px;}
+	.subfrmWrapper-horizontal{ background:none; border:none;overflow-x:hidden !important;}
+	
+	.subFormHorizontal li.decesion input[type="checkbox"]{ float:left; margin-top:4px;}
+	
+	/*.subFormHorizontal li.date .tempContDiv{ width:70% !important;}*/
+	.subFormHorizontal .currency .tempContDiv input[type="text"]{ width:inherit !important;}
+	.subFormHorizontal .date .tempContDiv input[type="text"]{ width:inherit !important;}
+	
+	.subfrmWrapper-horizontal ul.fileUplodBdrbot{ margin-bottom:0; padding-bottom:0;}
+	.subfrmAdd_entryDiv{ background:#f9f9f9;}
+	
+	.sfLimtEntryWrap{ width:80%;}
+	
+	/* left align */
+	/*.leftAlign .subFormHorizontal .tempFrmWrapper .tempContDiv{ margin-left:0;}
+	.leftAlign .subFormHorizontal .tempFrmWrapper .labelName{ width:100%; float:none;}*/
+	
+	
+	.subFormHorizontal .currency .tempContDiv .symbol{ float:none;}
+	.rtlWrapper .subFormHorizontal .currency .tempContDiv .symbol{ float:none;}
+
+}
+
+@media only screen  and (min-width:700px) and (max-width:735px) {
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:41%;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:24%;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:16%;}	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:38%; }
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:21%;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:13%;}
+}
+
+@media only screen  and (min-width:650px) and (max-width:700px) {
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:41%;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:24%;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:16%;}	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:37%; }
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:20%;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:12%;}
+    
+.leftAlign .namesmall .twoType .salutationWrapper span, .rightAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .twoType .salutationWrapper .salutation, .rightAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;} 
+    
+}
+
+@media only screen  and (min-width:550px) and (max-width:650px) {
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:40%;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:23%;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:14%;}
+	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:40%; padding:18px 10px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-6px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-6px;}
+
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:25%; padding:18px 5px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-3px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-2px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:25%; padding:18px 5px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper .tickIcon{ left:0;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-2px;}
+    
+    
+.leftAlign .namemedium .twoType .salutationWrapper span, .rightAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .twoType .salutationWrapper .salutation, .rightAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namemedium .threeType .salutationWrapper span, .rightAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .threeType .salutationWrapper .salutation, .rightAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;}
+
+.leftAlign .namesmall .twoType .salutationWrapper span, .rightAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .twoType .salutationWrapper .salutation, .rightAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}     
+
+}
+
+@media only screen  and (min-width:450px) and (max-width:550px) {
+
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:2px;}	
+
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-10px;}
+	
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:38%;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-10px;}
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:27%;padding:18px 5px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:-2px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:20%;padding:18px 2px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:0px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:-12px;}
+	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper .tickIcon{ left:3px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .twoColumns .imgUploadType .largeType, .rightAlign .twoColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .twoColumns .imgUploadType .largeType img, .rightAlign .twoColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .twoColumns .large .addedImgWrapper .pCentre, .rightAlign .twoColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:29%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .threeColumns .imgUploadType .largeType, .rightAlign .threeColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .threeColumns .imgUploadType .largeType img, .rightAlign .threeColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .threeColumns .large .addedImgWrapper .pCentre, .rightAlign .threeColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:29%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .sideBySide .imgUploadType .largeType, .rightAlign .sideBySide .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .sideBySide .imgUploadType .largeType img, .rightAlign .sideBySide .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .sideBySide .large .addedImgWrapper .pCentre, .rightAlign .sideBySide .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+.popUpOuterSave{ width: 100%;}
+.popUpOuterSave .popUpInner{ margin: 0 1%;}
+
+
+.leftAlign .namesmall .oneType .salutationWrapper span, .rightAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .oneType .salutationWrapper .salutation, .rightAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .twoType .salutationWrapper span, .rightAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .twoType .salutationWrapper .salutation, .rightAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .threeType .nameWrapper, .rightAlign .namesmall .threeType .nameWrapper{ overflow: hidden;}
+.leftAlign .namesmall .threeType .nameWrapper span, .rightAlign .namesmall .threeType .nameWrapper span{width:100%;margin-left:0;} 
+    
+.leftAlign .namemedium .oneType .salutationWrapper span, .rightAlign .namemedium .oneType .salutationWrapper span{width:70%;margin-left:5%;}
+.leftAlign .namemedium .oneType .salutationWrapper .salutation, .rightAlign .namemedium .oneType .salutationWrapper .salutation{width:25%;}
+
+    
+.leftAlign .namemedium .twoType .salutationWrapper span, .rightAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .twoType .salutationWrapper .salutation, .rightAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namemedium .threeType .salutationWrapper span, .rightAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .threeType .salutationWrapper .salutation, .rightAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;}
+    
+    
+.leftAlign .namelarge .twoType .salutationWrapper span, .rightAlign .namelarge .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .twoType .salutationWrapper .salutation, .rightAlign .namelarge .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namelarge .threeType .salutationWrapper span, .rightAlign .namelarge .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .threeType .salutationWrapper .salutation, .rightAlign .namelarge .threeType .salutationWrapper .salutation{width:50%;} 
+
+.topAlign .namelarge .twoType .salutationWrapper span{width: 32%;}
+.topAlign .namelarge .twoType .salutationWrapper .salutation{width: 32%;}
+.topAlign .namelarge .twoType .salutationWrapper span{width: 32%;}
+.topAlign .namelarge .twoType .salutationWrapper .salutation{width: 32%;}
+
+.topAlign .namelarge .threeType .salutationWrapper span{width: 22%;margin-left:4%;}
+.topAlign .namelarge .threeType .salutationWrapper .salutation{width:22%;}
+
+.topAlign .namelarge .tempContDiv span:first-child {margin-left: 0;}
+.leftAlign .namemedium .tempContDiv span:first-child, .rightAlign .namemedium .tempContDiv span:first-child {margin-left: 0;}
+	
+.uploadedCont .uploadFileTitle{ max-width: 50%;}
+}
+
+
+@media only screen  and (min-width:350px) and (max-width:450px) {
+	
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:3px;}	
+	
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:45%; padding:18px 2px;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:29%;padding:18px 0px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.topAlign .threeColumns .imgUploadType .largeType{ width:48px; height:48px;}
+.topAlign .threeColumns .imgUploadType .largeType img{ max-width:48px; max-height:48px;}
+.topAlign .threeColumns .large .addedImgWrapper .pCentre{ width:48px; height:48px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:29%;padding:18px 0px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.topAlign .sideBySide .imgUploadType .largeType{ width:48px; height:48px;}
+.topAlign .sideBySide .imgUploadType .largeType img{ max-width:48px; max-height:48px;}
+.topAlign .sideBySide .large .addedImgWrapper .pCentre{ width:48px; height:48px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:95%; padding:18px 2px;}
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+	
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .twoColumns .imgUploadType .largeType, .rightAlign .twoColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .twoColumns .imgUploadType .largeType img, .rightAlign .twoColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .twoColumns .large .addedImgWrapper .pCentre, .rightAlign .twoColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .threeColumns .imgUploadType .largeType, .rightAlign .threeColumns .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .threeColumns .imgUploadType .largeType img, .rightAlign .threeColumns .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .threeColumns .large .addedImgWrapper .pCentre, .rightAlign .threeColumns .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{width:46%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+.leftAlign .sideBySide .imgUploadType .largeType, .rightAlign .sideBySide .imgUploadType .largeType{ width:64px; height:64px;}
+.leftAlign .sideBySide .imgUploadType .largeType img, .rightAlign .sideBySide .imgUploadType .largeType img{ max-width:64px; max-height:64px;}
+.leftAlign .sideBySide .large .addedImgWrapper .pCentre, .rightAlign .sideBySide .large .addedImgWrapper .pCentre{ width:64px; height:64px;}
+	
+.popUpOuterSave{ width: 100%;}
+.popUpOuterSave .popUpInner{ margin: 0 1%;}
+
+.leftAlign .imgUploadFld .imgChoiceWrapper, .rightAlign .imgUploadFld .imgChoiceWrapper{ width:95%; padding:18px 2px;}
+.leftAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete, .rightAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete{ right:2px;}
+.leftAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon, .rightAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon{ left:2px;}
+
+.leftAlign .namesmall .oneType .salutationWrapper span, .rightAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .oneType .salutationWrapper .salutation, .rightAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .twoType .salutationWrapper span, .rightAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .twoType .salutationWrapper .salutation, .rightAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .threeType .nameWrapper, .rightAlign .namesmall .threeType .nameWrapper{ overflow: hidden;}
+.leftAlign .namesmall .threeType .nameWrapper span, .rightAlign .namesmall .threeType .nameWrapper span{width:100%;margin-left:0;} 
+
+
+.leftAlign .namemedium .oneType .salutationWrapper span, .rightAlign .namemedium .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .oneType .salutationWrapper .salutation, .rightAlign .namemedium .oneType .salutationWrapper .salutation{width:50%;}     
+.leftAlign .namemedium .twoType .salutationWrapper span, .rightAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .twoType .salutationWrapper .salutation, .rightAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namemedium .threeType .salutationWrapper span, .rightAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .threeType .salutationWrapper .salutation, .rightAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;}     
+    
+.topAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}
+.topAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;}    
+    
+    
+
+.leftAlign .namelarge .oneType .salutationWrapper span, .rightAlign .namelarge .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .oneType .salutationWrapper .salutation, .rightAlign .namelarge .oneType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namelarge .twoType .salutationWrapper span, .rightAlign .namelarge .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .twoType .salutationWrapper .salutation, .rightAlign .namelarge .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namelarge .threeType .salutationWrapper span, .rightAlign .namelarge .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .threeType .salutationWrapper .salutation, .rightAlign .namelarge .threeType .salutationWrapper .salutation{width:50%;} 
+
+.topAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}
+    
+.topAlign .namelarge .twoType .salutationWrapper span{width: 32%;}
+.topAlign .namelarge .twoType .salutationWrapper .salutation{width: 32%;}
+.topAlign .namelarge .threeType .salutationWrapper span{width: 22%;margin-left:4%;}
+.topAlign .namelarge .threeType .salutationWrapper .salutation{width:22%;}
+
+.topAlign .namelarge .tempContDiv span:first-child, .topAlign .namemedium .tempContDiv span:first-child {margin-left: 0;}	
+	
+.uploadedCont .uploadFileTitle{ max-width:33%;}
+}
+
+
+	
+@media only screen  and (min-width:300px) and (max-width:350px) {
+	
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:2px;}
+	
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:5px;}
+
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:95%; padding:18px 2px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+	
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ left:2px;}
+	
+.popUpOuterSave{ width: 100%;}
+.popUpOuterSave .popUpInner{ margin: 0 1%;}
+    
+.topAlign .imgUploadFld .imgChoiceWrapper{ width:99% !important; padding:18px 2px;}
+.topAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon{ left:4px;}
+.topAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete{ right:2px;}
+.leftAlign .imgUploadFld .imgChoiceWrapper, .rightAlign .imgUploadFld .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete, .rightAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete{ right:2px;}  
+.leftAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon, .rightAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon{ left:2px;}  
+
+.leftAlign .namesmall .oneType .salutationWrapper span, .rightAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .oneType .salutationWrapper .salutation, .rightAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .twoType .salutationWrapper span, .rightAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .twoType .salutationWrapper .salutation, .rightAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .twoType .nameWrapper, .rightAlign .namesmall .twoType .nameWrapper{ overflow: hidden;}
+.leftAlign .namesmall .twoType .nameWrapper span, .rightAlign .namesmall .twoType .nameWrapper span{width:100%;margin-left:0;}     
+.leftAlign .namesmall .threeType .nameWrapper, .rightAlign .namesmall .threeType .nameWrapper{ overflow: hidden;}
+.leftAlign .namesmall .threeType .nameWrapper span, .rightAlign .namesmall .threeType .nameWrapper span{width:100%;margin-left:0;} 
+
+.leftAlign .namemedium .oneType .salutationWrapper span, .rightAlign .namemedium .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .oneType .salutationWrapper .salutation, .rightAlign .namemedium .oneType .salutationWrapper .salutation{width:50%;}     
+.leftAlign .namemedium .twoType .salutationWrapper span, .rightAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .twoType .salutationWrapper .salutation, .rightAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namemedium .threeType .salutationWrapper span, .rightAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .threeType .salutationWrapper .salutation, .rightAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;} 
+    
+.topAlign .namemedium .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .oneType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;}     
+
+.leftAlign .namelarge .oneType .salutationWrapper span, .rightAlign .namelarge .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .oneType .salutationWrapper .salutation, .rightAlign .namelarge .oneType .salutationWrapper .salutation{width:50%;}
+    
+
+.leftAlign .namelarge .twoType .nameWrapper span, .rightAlign .namelarge .twoType .nameWrapper span{width: 48%;margin-left: 3%;}
+.leftAlign .namelarge .threeType .nameWrapper, .rightAlign .namelarge .threeType .nameWrapper{ overflow: hidden;}
+.leftAlign .namelarge .threeType .nameWrapper span, .rightAlign .namelarge .threeType .nameWrapper span{width:100%;margin-left:0;}    
+   
+    
+.leftAlign .namelarge .twoType .salutationWrapper span, .rightAlign .namelarge .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .twoType .salutationWrapper .salutation, .rightAlign .namelarge .twoType .salutationWrapper .salutation{width:50%;}
+
+.leftAlign .namelarge .threeType .salutationWrapper span, .rightAlign .namelarge .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .threeType .salutationWrapper .salutation, .rightAlign .namelarge .threeType .salutationWrapper .salutation{width:50%;}     
+ 
+.topAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}   
+    
+    
+.topAlign .namelarge .twoType .salutationWrapper span{width: 32%;}
+.topAlign .namelarge .twoType .salutationWrapper .salutation{width: 32%;}
+.topAlign .namelarge .threeType .salutationWrapper span{width: 22%;margin-left:4%;}
+.topAlign .namelarge .threeType .salutationWrapper .salutation{width:22%;}
+    
+.topAlign .namesmall .threeType .nameWrapper span{ width: 100%; margin-left: 0; float: none;}
+    
+
+.topAlign .namelarge .tempContDiv span:first-child {margin-left: 0;}	
+
+.uploadedCont .uploadFileTitle{ max-width: 23%;}
+}
+
+	
+@media only screen  and (min-width:250px) and (max-width:300px) {
+	
+.imgUploadType .imgChoiceWrapper .tickIcon{ left:2px;}
+	
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:5px;}
+
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:99%; padding:18px 2px;}
+.topAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:95%; padding:18px 2px;}
+.topAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:1px;}
+
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .oneColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .twoColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+	
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .threeColumns .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ right:2px;}
+
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon, .rightAlign .sideBySide .imgUploadType .imgChoiceWrapper:hover .zoomIcon{ left:2px;}
+	
+.popUpOuterSave{ width: 100%;}
+.popUpOuterSave .popUpInner{ margin: 0 1%;}
+    
+.topAlign .imgUploadFld .imgChoiceWrapper{ width:99% !important; padding:18px 2px;}
+.topAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon{ left:4px;}
+.topAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete{ right:2px;}
+.leftAlign .imgUploadFld .imgChoiceWrapper, .rightAlign .imgUploadFld .imgChoiceWrapper{ width:90%; padding:18px 0px;}
+.leftAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete, .rightAlign .imgUploadFld .imgChoiceWrapper:hover .attachDelete{ right:2px;}  
+.leftAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon, .rightAlign .imgUploadFld .imgChoiceWrapper:hover .zoomIcon{ left:2px;}  
+
+.leftAlign .namesmall .oneType .salutationWrapper span, .rightAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .oneType .salutationWrapper .salutation, .rightAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .twoType .salutationWrapper span, .rightAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namesmall .twoType .salutationWrapper .salutation, .rightAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namesmall .twoType .nameWrapper, .rightAlign .namesmall .twoType .nameWrapper{ overflow: hidden;}
+.leftAlign .namesmall .twoType .nameWrapper span, .rightAlign .namesmall .twoType .nameWrapper span{width:100%;margin-left:0;}     
+.leftAlign .namesmall .threeType .nameWrapper, .rightAlign .namesmall .threeType .nameWrapper{ overflow: hidden;}
+.leftAlign .namesmall .threeType .nameWrapper span, .rightAlign .namesmall .threeType .nameWrapper span{width:100%;margin-left:0;} 
+
+.leftAlign .namelarge .twoType .nameWrapper span, .rightAlign .namelarge .twoType .nameWrapper span{width: 48%;}
+.leftAlign .namelarge .threeType .nameWrapper, .rightAlign .namelarge .threeType .nameWrapper{ overflow: hidden}    
+.leftAlign .namelarge .threeType .nameWrapper span, .rightAlign .namelarge .threeType .nameWrapper span{width:100%; margin-left: 0;}    
+    
+.leftAlign .namelarge .oneType .salutationWrapper span, .rightAlign .namelarge .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .oneType .salutationWrapper .salutation, .rightAlign .namelarge .oneType .salutationWrapper .salutation{width:50%;} 
+    
+.leftAlign .namelarge .twoType .salutationWrapper span, .rightAlign .namelarge .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .twoType .salutationWrapper .salutation, .rightAlign .namelarge .twoType .salutationWrapper .salutation{width:50%;}
+
+.leftAlign .namelarge .threeType .salutationWrapper span, .rightAlign .namelarge .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namelarge .threeType .salutationWrapper .salutation, .rightAlign .namelarge .threeType .salutationWrapper .salutation{width:50%;}     
+
+
+.leftAlign .namemedium .oneType .salutationWrapper span, .rightAlign .namemedium .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .oneType .salutationWrapper .salutation, .rightAlign .namemedium .oneType .salutationWrapper .salutation{width:50%;}     
+.leftAlign .namemedium .twoType .salutationWrapper span, .rightAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .twoType .salutationWrapper .salutation, .rightAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}
+.leftAlign .namemedium .threeType .salutationWrapper span, .rightAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.leftAlign .namemedium .threeType .salutationWrapper .salutation, .rightAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;} 
+
+.leftAlign .namemedium .twoType .nameWrapper span, .rightAlign .namemedium .twoType .nameWrapper span{width:100%; margin-left: 0;}
+.leftAlign .namemedium .threeType .nameWrapper span, .rightAlign .namemedium .threeType .nameWrapper span{width:100%; margin-left: 0;} 
+    
+
+.topAlign .namemedium .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .oneType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namemedium .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .twoType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namemedium .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namemedium .threeType .salutationWrapper .salutation{width:50%;} 
+
+.topAlign .namesmall .oneType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namesmall .oneType .salutationWrapper .salutation{width:50%;}    
+.topAlign .namesmall .twoType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namesmall .twoType .salutationWrapper .salutation{width:50%;}
+
+.topAlign .namesmall .threeType .nameWrapper span, .topAlign .namesmall .twoType .nameWrapper span{ width: 100%; margin-left: 0; float: none;}
+    
+    
+.topAlign .namelarge .oneType .salutationWrapper span{width: 70%;margin-left: 5%;}
+.topAlign .namelarge .oneType .salutationWrapper .salutation {width: 25%;}
+.topAlign .namelarge .twoType .salutationWrapper span{width: 32%;}
+.topAlign .namelarge .twoType .salutationWrapper .salutation{width: 32%;}
+.topAlign .namelarge .threeType .salutationWrapper span{width: 100%;margin-left:0; float: none;}
+.topAlign .namelarge .threeType .salutationWrapper .salutation{width:50%;}
+
+.topAlign .namelarge .tempContDiv span:first-child {margin-left: 0;}	
+
+.uploadedCont .uploadFileTitle{ max-width: 23%;}
+
+}	
+	

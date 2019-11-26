@@ -1,0 +1,183 @@
+/* $Id: $ */
+@charset "UTF-8";
+/* CSS Document */
+
+/*defaultTheme starts here*/
+
+.backgroundBg{ 
+	background:#F9F9F9;
+	}
+.backgroundSecBg{ 
+	padding:5px;
+	margin:0;
+	}	
+.templateWidth {
+	margin:0 auto;
+	background:url(/formstatic/images/themes/border/tileImg.png) repeat;
+	}	
+.topContainer{
+	display:none;
+	}
+.btmContainer{
+	display:none;
+	}
+.centerContainer{  
+	padding:17px;
+	}
+.templateWrapper{
+	background:#fff;
+	-webkit-box-shadow:0 0 3px #C5C5C5 inset;
+	-moz-box-shadow:0 0 3px #C5C5C5 inset;
+	box-shadow:0 0 3px #C5C5C5 inset;
+	padding:20px;
+}
+.tempHeadBdr {
+	 background:url(/formstatic/images/themes/border/headerBorderImg.png) repeat-x center bottom;
+    padding-bottom:15px;	
+}
+.tempHeadContBdr{
+	background:#none;
+	border-bottom:none; 
+	margin: 0;
+    padding:25px;
+	text-align:center;
+	
+	}
+.tempHeadContBdr .frmTitle{ 
+	color:#505050;
+	font-size:3em;
+	}
+.tempHeadContBdr .frmDesc{ 
+	color:#505050;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	}
+
+.tempFrmWrapper .labelName{ font-size:16px; color:#252525;} 
+	
+.tempContDiv input[type="text"], .tempContDiv textarea, .tempContDiv .pdfTextArea{
+	background:#fff;
+	padding:8px;
+	border:1px solid #b2c5c0;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	}
+
+
+.signContainer canvas{border:1px solid #b2c5c0;-webkit-border-radius:5px; -moz-border-radius:5px;border-radius:5px;}
+
+
+.tempContDiv input[type="text"]:hover,  .tempContDiv textarea:hover{	
+	
+	}	
+.tempContDiv input[type="text"]:focus, .tempContDiv textarea:focus{	
+	
+	}	
+
+.subContWrap{ margin:10px; margin-bottom:0;background:#fff;}
+
+.phone .tempContDiv label, .date .tempContDiv label, .time .tempContDiv label, .address .tempContDiv label {
+	color:#888888;
+}
+
+.date .tempContDiv .calendarIcon{ margin-top:8px;}
+.currency .tempContDiv .symbol{margin-top:7px;}
+
+.fmFooter{
+	text-align:center;
+	background:#fff;
+	overflow:hidden;
+	}
+	
+.fmSmtButton {
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font:16px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Arimo,Helvetica,sans-serif;
+	font-weight:400;
+	padding:6px 24px;
+	}
+	
+.submitColor{
+	color: #fff;
+	border:1px solid #EF473E; 
+	background: #EF473E;
+	}
+	
+.submitColor:hover{
+	background: #D74F45;
+	border:1px solid #D74F45; 
+	}
+
+.cancelColor {
+	color: #444;
+	border: solid 1px #ccc;
+	background: #eaeaea;
+	}
+	
+.cancelColor:hover{
+	border: 1px solid #aaa;
+	background: #fff;
+	}
+
+.brandingContainer {
+	text-align: right;
+	color:#666;
+	padding:15px;
+	}
+	
+	
+.form_sBox{ -webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+	border-radius:5px; border: 1px solid #B2C5C0; height:33px;}
+	
+.cardHeadCont .headingText{ margin-top:3px;}
+.cardHeadCont .crdAmtCont{ line-height:31px;}
+.crdAmt input[type="text"] { font-size:13px; padding:8px; border:1px solid #6F6F6F;}
+.cardHeadCont .crdHelpText{ margin-top:3px;}
+
+.form_sBox .customArrow{right:6px;top:7px;}
+
+.form_sBox select{padding-top:5px; padding-bottom:5px; padding-right:13px; -webkit-padding-before:6px !important;padding-block-start: 6px !important;}    
+
+.verification .captchaRefresh{  margin-top: 9px;}
+
+.pBarWrapper{ margin:0; padding:10px 5px;}
+
+.pBarWrapper .pBar, .pBarWrapper em.pNumber b{ background:#f1f1f1;}
+
+.pBarWrapper .selected em.pNumber{color:#fff; border:2px solid rgba(255, 255, 255, 0);}
+.pBarWrapper .selected .pBar, .pBarWrapper .selected em.pNumber b{ background:#656565;}
+.pBarWrapper .currentPTab em.pNumber{color:#fff; border:2px solid #656565;}
+.bar .currentPTab .pArrow{ border-color:#656565 transparent;}
+
+.fmFooter .next_previous{ 
+	padding:6px 24px;
+	font:16px 'Open Sans',"Lucida Grande","Lucida Sans Unicode",Arial,Arimo,Helvetica,sans-serif;
+	background:#222; border:1px solid #222; color:#fff;
+}
+
+.signContainer .signArea, .tempContDiv input[type="file"], .mSelect select{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; border: 1px solid #b2c5c0;}
+
+
+
+/* IE6, IE7, IE8, but also IE9 */
+
+.form_sBox select{ padding:5px 3px 4px 3px\9;}
+.time .form_sBox select{ padding:5px 3px 4px 3px\9;}
+
+/*  save button */
+
+.saveColor{
+	color: #fff;
+	border:1px solid #EF473E; 
+	background: #EF473E;
+	}
+	
+.saveColor:hover{
+	background: #D74F45;
+	border:1px solid #D74F45; 
+	}
